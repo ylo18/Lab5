@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>coffee</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <hr>
+        <h4><a href="table.html">Menu</a></h4>
+        <hr>
+        <h1>Welcome!</h1>
+        <fieldset>
+            <legend>Please <i><b>fully</b></i> fill out this form.</legend>
+        <form action ="thanks.html">
+            <p>Name: 
+                <input type="text" name="Name" maxlength="30" required="required"
+                       placeholder="Enter your name"/>    
+            </p>
+            <p>Please select your preferred drink of choice!
+                <br />
+                <input type="checkbox" name="choice" value="vanilla"> Vanilla: $4
+                <br />
+                <input type="checkbox" name="choice" value="mocha"> Mocha: $6
+                <br />
+                <input type="checkbox" name="choice" value="caramel"> Caramel: $5
+                <br />
+                <input type="checkbox" name="choice" value="pumpkin"> Pumpkin Spice: $8
+            </p>
+            <p>Select a Payment Method:
+                <br />
+                <input type="radio" name="payment" value="visa"> Visa
+                <br />
+                <input type="radio" name="payment" value="discover"> Discover
+                <br />
+                <input type="radio" name="payment" value="card"> Master Card
+            </p>
+            <input type="reset" name="reset" value="Reset Order">
+            <input type="submit" name="submit" value="Place Order">
+        </form>
+            <br />
+            <img src="images/coffee.webp" width="275" height="250" alt="Our Coffee">
+        </fieldset>
+    </body>
+</html>

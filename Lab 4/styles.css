@@ -1,0 +1,12 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    padding: 10px;}
+.page {
+    border: 1px solid #665544;
+    background-color: #efefef;
+    padding: inherit;}
